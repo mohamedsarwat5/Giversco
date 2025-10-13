@@ -11,10 +11,16 @@ i18n.use(initReactI18next).init({
                 message: 'Welcome To GIVERSCO Company',
                 nav: {
                     about: 'About us',
-                    products:'Products',
-                    pickles:'Pickles',
+                    products: 'Products',
+                    pickles: 'Pickles',
                     contact: 'Contact',
 
+                },
+                dataText: {
+
+                    bannerM1: '25+ Years Experience',
+                    bannerM2: '85+ Product',
+                    bannerM3: '25+ Contraies Export'
                 }
             },
         },
@@ -26,9 +32,15 @@ i18n.use(initReactI18next).init({
                 message: 'مرحبًا بكم في شركة جيفرسكو',
                 nav: {
                     about: 'من نحن',
-                      products:'المنتجات',
-                    pickles:'المخللات',
+                    products: 'المنتجات',
+                    pickles: 'المخللات',
                     contact: 'اتصل بنا',
+                },
+                dataText: {
+
+                    bannerM1: 'أكثر من 25 عامًا من الخبرة',
+                    bannerM2: 'أكثر من 85 منتج',
+                    bannerM3: 'تصدير إلى أكثر من 25 دولة'
                 }
             },
         }

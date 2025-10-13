@@ -3,6 +3,7 @@
 
 :root {
   --green: #00BB47;
+  --green-light: #00bb48c5;
 }
 
 /* .dark{
@@ -14,16 +15,23 @@
   --color-green: var(--green)
 }
 
-.active{
+.active {
   @apply text-green-800 font-bold
 }
 
-.p{
+.p {
   @apply py-12 px-4 md:px-[120px]
 }
 
-.hero{
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4) ), url('assets/BACK.jpg');
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/BACK.jpg');
   background-size: cover;
-  background-position: center ;
+  background-position: center;
+}
+.layer{
+  transition: all .2s ease-in-out;
+}
+
+.layer:hover {
+  background: var(--green-light);
 }

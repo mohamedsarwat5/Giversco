@@ -18,7 +18,7 @@ export default function Navbar({ toggleLanguage }) {
     return (<>
 
         <div className=' '>
-            <nav className='bg-green shadow-md p-5 md:px-[120px] flex items-center justify-between relative'>
+            <nav className='bg-green shadow-md p-5 md:px-[120px] flex items-center justify-between w-full z-20 fixed top-0'>
                 <NavLink to={'/'}>
 
                     <img className='w-9' src={logo} alt="" />
