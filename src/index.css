@@ -4,18 +4,35 @@
 :root {
   --green: #00BB47;
   --green-light: #00bb48c5;
+  --beg:#f8f9fa;
 }
 
-/* .dark{
+.link {
+  transition: all .3s;
+}
 
-} */
+.link:hover {
+  color: #016630;
+}
+
+.certbutton {
+  transition: all .3s ease-in-out;
+  border: 1px solid transparent;
+}
+
+.certbutton:hover {
+  color: black;
+  background: #ffffff8c;
+  border: 1px solid white;
+}
 
 * {
   user-select: none;
 }
 
 @theme {
-  --color-green: var(--green)
+  --color-green: var(--green);
+  --color-beg:var(--beg)
 }
 
 .active {

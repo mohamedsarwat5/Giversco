@@ -8,6 +8,7 @@ import Prouducts from './components/Prouducts/Prouducts'
 import Pickles from './components/Pickles/Pickles'
 import Contact from './components/Contact/Contact'
 import Home from './Home/Home'
+import Achievements from './components/Achievements/Achievements'
 
 
 export default function App() {
@@ -30,13 +31,15 @@ export default function App() {
     document.documentElement.dir = savedLang === "ar" ? "rtl" : "ltr";
 
   }, []);
-  useEffect(() => {
-    const handleContextMenu = (e) => e.preventDefault()
-    document.addEventListener('contextmenu', handleContextMenu)
-    return () => {
-      document.removeEventListener('contextmenu', handleContextMenu)
-    }
-  }, [])
+
+  // useEffect(() => {
+  //   const handleContextMenu = (e) => e.preventDefault()
+  //   document.addEventListener('contextmenu', handleContextMenu)
+  //   return () => {
+  //     document.removeEventListener('contextmenu', handleContextMenu)
+  //   }
+  // }, [])
+
   const router = createBrowserRouter([{
     path: '/', element: <Layout toggleLanguage={toggleLanguage} />, children: [
       {
@@ -53,6 +56,9 @@ export default function App() {
       },
       {
         path: '/contact', element: <Contact />
+      },
+      {
+        path: '/achievements', element: <Achievements />
       },
     ]
   }])
