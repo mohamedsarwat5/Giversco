@@ -26,7 +26,7 @@ export default function Navbar({ toggleLanguage }) {
                 <ul className={`lg:flex hidden items-center space-x-12  `}>
                     {Links.map((link, i) => (
                         <li key={i} className='text-white font-medium space-x-7  '>
-                            <NavLink to={`/${link}`} className='uppercase hover:text-green-800 duration-200 transition-all'>
+                            <NavLink to={`/${link.lable}`} className='uppercase hover:text-green-800 duration-200 transition-all'>
 
                                 {t(`nav.${link.lable}`)}
                             </NavLink>
