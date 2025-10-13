@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home from './components/home/home'
+
 import Layout from './components/Layout/Layout'
 import About from './components/About/About'
 import Prouducts from './components/Prouducts/Prouducts'
 import Pickles from './components/Pickles/Pickles'
 import Contact from './components/Contact/Contact'
+import Home from './Home/Home'
+
 
 export default function App() {
 
@@ -31,7 +33,7 @@ export default function App() {
   const router = createBrowserRouter([{
     path: '/', element: <Layout toggleLanguage={toggleLanguage} />, children: [
       {
-        index: true, element: <Home />
+        index: true, element: <Home/>
       },
       {
         path: '/about', element: <About />
