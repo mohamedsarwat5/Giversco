@@ -10,6 +10,9 @@
 
 } */
 
+* {
+  user-select: none;
+}
 
 @theme {
   --color-green: var(--green)
@@ -28,7 +31,8 @@
   background-size: cover;
   background-position: center;
 }
-.layer{
+
+.layer {
   transition: all .2s ease-in-out;
 }
 

@@ -28,12 +28,19 @@ export default function App() {
     const savedLang = localStorage.getItem("lang") || "ar";
     i18n.changeLanguage(savedLang);
     document.documentElement.dir = savedLang === "ar" ? "rtl" : "ltr";
-  }, []);
 
+  }, []);
+  useEffect(() => {
+    const handleContextMenu = (e) => e.preventDefault()
+    document.addEventListener('contextmenu', handleContextMenu)
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu)
+    }
+  }, [])
   const router = createBrowserRouter([{
     path: '/', element: <Layout toggleLanguage={toggleLanguage} />, children: [
       {
-        index: true, element: <Home/>
+        index: true, element: <Home />
       },
       {
         path: '/about', element: <About />
@@ -49,6 +56,8 @@ export default function App() {
       },
     ]
   }])
+
+
   return (
 
     <>
