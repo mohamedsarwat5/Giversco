@@ -28,12 +28,12 @@ export default function Achievements() {
             <Header text={t('headerText')} />
             <div className='space-y-5 bg-beg p-5 mt-5'>
                 <h3 className='text-green font-bold text-3xl text-center '>{t('certhead')}</h3>
-                <p className='text-center font-medium  lg:w-10/12 mx-auto text-xl'>{t('certParagraph')}</p>
+                <p className=' font-medium  lg:w-10/12 mx-auto text-xl'>{t('certParagraph')}</p>
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-4  mt-12'>
                     {cerData.map(({ head, desc }, i) => (
                         <div className='flex  space-y-3 flex-col md:h-[250px] bg-white p-6 rounded-2xl shadow-md hover:translate-y-2 duration-300 transition-all'>
                             <h2 className=' text-green font-bold text-xl lg:text-2xl '>{t(`certData.${head}`)}</h2>
-                            <p>{t(`certData.${desc}`)}</p>
+                            <p className='font-medium'>{t(`certData.${desc}`)}</p>
                         </div>
                     ))}
                 </div>
