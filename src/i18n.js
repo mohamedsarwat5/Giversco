@@ -39,7 +39,8 @@ i18n.use(initReactI18next).init({
                     headDesc4: "Building long-term relationships with global importers and distributors, founded on trust, transparency, and continuity.",
                     headDesc5: "Employing advanced packaging technologies that preserve freshness and nutritional value while meeting market requirements.",
                     headDesc6: "Supporting the agricultural export sector and strengthening the position of Egyptian products as a reliable and competitive choice worldwide.",
-                }
+                },
+                logo:'GIVERSCO'
             },
 
         },
@@ -78,7 +79,8 @@ i18n.use(initReactI18next).init({
                     headDesc4: "نبني علاقات طويلة الأمد مع المستوردين والموزعين حول العالم، قائمة على الثقة والشفافية والاستمرارية.",
                     headDesc5: "نستخدم تقنيات تغليف متقدمة تحافظ على الطزاجة والقيمة الغذائية للمنتجات مع تلبية متطلبات السوق.",
                     headDesc6: "دعم قطاع التصدير الزراعي وتعزيز مكانة المنتجات المصرية كخيار موثوق وتنافسي عالميًا.",
-                }
+                },
+                logo:'جيفرسكو'
 
             },
         }
