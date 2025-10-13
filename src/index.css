@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --green: #00BB47;
+}
+
+/* .dark{
+
+} */
+
+
+@theme {
+  --color-green: var(--green)
+}
+
+.active{
+  @apply text-green-800 font-bold
+}
+
+.p{
+  @apply py-12 px-4 md:px-[120px]
+}
+
+.hero{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3) ), url('assets/BACK.jpg');
+  background-size: cover;
+  background-position: center ;
+}
+
