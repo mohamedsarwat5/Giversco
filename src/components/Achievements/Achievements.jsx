@@ -32,14 +32,14 @@ export default function Achievements() {
 
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: .8 }}
             >
                 <Header text={t('headerText')} />
             </motion.div>
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: .8 }}
                 className='space-y-5 bg-beg p-5 mt-5'>
                 <h3 className='text-green font-bold text-3xl text-center '>{t('certhead')}</h3>
@@ -48,7 +48,7 @@ export default function Achievements() {
                     {cerData.map(({ head, desc }, i) => (
                         <motion.div
                             initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
+                            whileInView={{ opacity: 1 }}
                             transition={{ duration: .8, delay: i * .1 }}
                             className='flex  space-y-3 flex-col md:h-[250px] bg-white p-6 rounded-2xl shadow-md hover:translate-y-2 duration-300 transition-all'>
                             <h2 className=' text-green font-bold text-xl lg:text-2xl '>{t(`certData.${head}`)}</h2>
@@ -61,7 +61,7 @@ export default function Achievements() {
                 {isoImages.map((src, i) => (
                     <motion.img
                         initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
+                        whileInView={{ opacity: 1 }}
                         transition={{ duration: .5, delay: i * .1 }}
                         className='mx-auto lg:w-40 ' key={i} src={src} alt="" />
                 ))}
