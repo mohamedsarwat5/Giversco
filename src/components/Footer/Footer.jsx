@@ -24,8 +24,8 @@ export default function Footer() {
         },
     ]
     return (
-        <div className='bg-green p flex flex-col   relative '>
-           
+        <div className='bg-green px-4 md:px-[120px] py-6 flex flex-col   relative '>
+
             <div className='flex lg:justify-around justify-between'>
 
 
@@ -72,8 +72,8 @@ export default function Footer() {
                     ))}
                 </div>
             </div>
-            <hr className='opacity-35 w-9/12 mx-auto mb-2 text-white' />
-            <p className=' text-white text-sm text-center '>© Copyright 2025 GIVRESCO. All Rights Reserved.</p>
+            <hr className='opacity-45 w-9/12 mx-auto  text-white' />
+            <p className=' text-white text-sm text-center translate-y-2 '>© Copyright 2025 GIVRESCO. All Rights Reserved.</p>
         </div>
     )
 }

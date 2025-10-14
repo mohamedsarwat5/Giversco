@@ -4,6 +4,7 @@ import Banner from '../components/Banner/Banner'
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { easeIn, easeInOut, motion } from 'framer-motion'
+import Services from '../components/Services/Services'
 
 
 export default function Home() {
@@ -23,5 +24,6 @@ export default function Home() {
                 className={`bg-green w-46 text-center py-2 text-white rounded-lg certbutton`} to={'/achievements'}>{t('cert')} </NavLink>
         </motion.div>
         <Banner />
+        <Services />
     </>)
 }

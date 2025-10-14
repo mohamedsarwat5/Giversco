@@ -50,7 +50,22 @@ i18n.use(initReactI18next).init({
                 contact: 'contact us',
                 social: 'SOCIAL',
                 link: 'LINKs',
-                world: 'in all world'
+                world: 'in all world',
+                pickles: 'pickles',
+                servicesData: {
+                    text1: 'Sorting products with the latest technology for top quality.',
+                    text2: 'Transporting crops directly from farms to sorting and packaging centers.',
+                    text3: 'Selecting the best certified farms to guarantee top-quality products at the source.',
+                    text4: 'Using advanced packaging methods to keep products fresh and safe.',
+                    text5: 'Conducting thorough inspections to ensure products meet standards.',
+                    text6: 'Exporting products to international markets with top quality standards.',
+                    title1: "Fast Sorting",
+                    title2: "Direct Transport",
+                    title3: "Certified Farms",
+                    title4: "Packaging",
+                    title5: "Quality Check",
+                    title6: "Global Export"
+                }
             },
 
         },
@@ -101,7 +116,21 @@ i18n.use(initReactI18next).init({
                 link: 'الروابط',
                 social: 'وسائل التواصل الاجتماعي',
                 world: 'في جميع أنحاء العالم',
-
+                pickles: "المخللات",
+                servicesData: {
+                    text1: 'فرز المنتجات باستخدام أحدث التقنيات لضمان أعلى جودة.',
+                    text2: 'نقل المحاصيل مباشرةً من المزارع إلى مراكز الفرز والتعبئة.',
+                    text3: 'اختيار أفضل المزارع المعتمدة لضمان منتجات عالية الجودة من المصدر.',
+                    text4: 'استخدام أساليب تعبئة متقدمة للحفاظ على المنتجات طازجة وآمنة.',
+                    text5: 'إجراء فحوصات دقيقة للتأكد من أن المنتجات تفي بالمعايير.',
+                    text6: 'تصدير المنتجات إلى الأسواق الدولية وفق أعلى معايير الجودة.',
+                    title1: "فرز سريع",
+                    title2: "نقل مباشر",
+                    title3: "مزارع معتمدة",
+                    title4: "التعبئة",
+                    title5: "فحص الجودة",
+                    title6: "التصدير العالمي"
+                }
 
             },
         }
