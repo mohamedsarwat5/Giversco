@@ -8,7 +8,7 @@ export default function Loading() {
 const {t,i18n} = useTranslation()
     return (
 
-        <div className="fixed inset-0  bg-green flex items-center justify-center text-center text-white text-2xl lg:text-6xl">
+        <div className="fixed inset-0  bg-green flex items-center justify-center text-center text-white text-6xl">
 
 
            <h2 className="animate-bounce"> {t(`logo`)}</h2>

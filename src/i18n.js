@@ -40,7 +40,16 @@ i18n.use(initReactI18next).init({
                     headDesc5: "Employing advanced packaging technologies that preserve freshness and nutritional value while meeting market requirements.",
                     headDesc6: "Supporting the agricultural export sector and strengthening the position of Egyptian products as a reliable and competitive choice worldwide.",
                 },
-                logo:'GIVERSCO'
+                logo: 'GIVERSCO',
+                footerData: {
+                    footerText1: 'Al-Hamra - Sidi Ghazi - Kafr El-Dawar Road ',
+                    footerText2: '+(20) 1226621763 <br> +(20) 1283626198 ',
+                    footerText3: 'info@giverscoo.com ',
+                },
+                contact: 'contact us',
+                social: 'SOCIAL',
+                link:'LINKs',
+                world:'in all world'
             },
 
         },
@@ -54,7 +63,7 @@ i18n.use(initReactI18next).init({
                     about: 'من نحن',
                     products: 'المنتجات',
                     pickles: 'المخللات',
-                    contact: 'اتصل بنا',
+                    contact: 'إتصل بنا',
                 },
                 dataText: {
 
@@ -80,7 +89,15 @@ i18n.use(initReactI18next).init({
                     headDesc5: "نستخدم تقنيات تغليف متقدمة تحافظ على الطزاجة والقيمة الغذائية للمنتجات مع تلبية متطلبات السوق.",
                     headDesc6: "دعم قطاع التصدير الزراعي وتعزيز مكانة المنتجات المصرية كخيار موثوق وتنافسي عالميًا.",
                 },
-                logo:'جيفرسكو'
+                logo: 'جيفرسكو',
+                footerData: {
+                    footerText1: 'الحمرا - سيدي غازي - طريق كفر الدوار',
+
+                },
+                contact: 'إتصل بنا',
+                link: 'الروابط',
+                social: 'وسائل التواصل الاجتماعي',
+                world:'في جميع أنحاء العالم'
 
             },
         }

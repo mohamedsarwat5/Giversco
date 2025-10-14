@@ -3,16 +3,18 @@ import { useTranslation } from 'react-i18next'
 import { NavLink } from 'react-router-dom';
 import logo from "/logo.png"
 
+export const Links = [{ lable: 'about', icon: <i className="fa-solid fa-users"></i> },
+{ lable: 'products', icon: <i className="fa-solid fa-store"></i> },
+{ lable: 'pickles', icon: <i className="fa-solid fa-jar"></i> },
+{ lable: 'contact', icon: <i className="fa-solid fa-phone-volume"></i> }]
+
 export default function Navbar({ toggleLanguage }) {
 
     const { t, i18n } = useTranslation()
 
 
 
-    const Links = [{ lable: 'about', icon: <i className="fa-solid fa-users"></i> },
-    { lable: 'products', icon: <i className="fa-solid fa-store"></i> },
-    { lable: 'pickles', icon: <i className="fa-solid fa-jar"></i> },
-    { lable: 'contact', icon: <i className="fa-solid fa-phone-volume"></i> }]
+
     const [open, setOpen] = useState(false)
 
     return (<>
