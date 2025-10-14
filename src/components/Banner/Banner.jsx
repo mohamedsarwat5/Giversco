@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import { t } from 'i18next'
 import React from 'react'
 
@@ -9,14 +10,18 @@ export default function Banner() {
     ]
     return (
         <div className='p grid lg:grid-cols-3 grid-cols-1 gap-3'>
-            {data.map(({img, text, icon} ,i) => (
-                <div key={i} className='rounded-3xl overflow-hidden h-[300px] relative'>
+            {data.map(({ img, text, icon }, i) => (
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: .5, delay: i * .1 }}
+                    key={i} className='rounded-3xl overflow-hidden h-[300px] relative'>
                     <img src={img} className='w-full h-full object-cover object-center' alt="" />
                     <div className='absolute bg-black/35 layer inset-0 flex items-center flex-col justify-center space-y-2 text-white'>
                         <span className='text-3xl'>{icon}</span>
                         <p className='font-semibold text-2xl'>{t(`dataText.${text}`)}</p>
                     </div>
-                </div>
+                </motion.div>
             ))}
         </div>
     )

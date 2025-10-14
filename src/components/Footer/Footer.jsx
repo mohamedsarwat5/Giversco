@@ -24,17 +24,14 @@ export default function Footer() {
         },
     ]
     return (
-        <div className='bg-green p flex flex-col   '>
-            {/* <div className='flex flex-col space-y-2'>
-                <h3 className='text-white lg:text-3xl text-lg'>{t('link')}</h3>
-                {Links.map((link, i) => (
-                    <NavLink className={`text-white uppercase link`} to={`/${link.lable}`}>{t(`nav.${link.lable}`)}</NavLink>
-                ))}
-            </div> */}
-            <div className='flex justify-between '>
-                <div>
-                    <h3 className='text-white lg:text-3xl text-lg uppercase text-center mb-2'>{t('world')}</h3>
-                    <img className='w-40 lg:w-52 mx-auto' src={mapImg} alt="" />
+        <div className='bg-green p flex flex-col   relative '>
+           
+            <div className='flex lg:justify-around justify-between'>
+
+
+                <div className=''>
+                    <h3 className='text-white lg:text-3xl text-lg uppercase   mb-2'>{t('world')}</h3>
+                    <img className='w-40 lg:w-52 ' src={mapImg} alt="" />
                 </div>
 
                 <div>
@@ -50,11 +47,21 @@ export default function Footer() {
                             <i className="fa-brands fa-instagram cursor-pointer link "></i>
                         </a>
                     </div>
+                </div>
 
+                <div className='mb-5 hidden lg:block'>
+                    <h3 className='text-white lg:text-3xl text-lg uppercase  mt-3 '>{t('contact')}</h3>
+                    <div className='flex flex-col space-y-1 mt-3'>
+                        {footerData.map((item, i) => (
+                            <div key={i} className='flex items-center  space-x-2 text-sm text-white'>
+                                {item.icon}
+                                <p className='' dangerouslySetInnerHTML={{ __html: t(`footerData.${item.text}`) }}></p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
-
-            <div className=''>
+            <div className='mb-5 block lg:hidden'>
                 <h3 className='text-white lg:text-3xl text-lg uppercase  mt-3 '>{t('contact')}</h3>
                 <div className='flex flex-col space-y-1 mt-3'>
                     {footerData.map((item, i) => (
@@ -65,7 +72,8 @@ export default function Footer() {
                     ))}
                 </div>
             </div>
-
+            <hr className='opacity-35 w-9/12 mx-auto mb-2 text-white' />
+            <p className=' text-white text-sm text-center '>© Copyright 2025 GIVRESCO. All Rights Reserved.</p>
         </div>
     )
 }

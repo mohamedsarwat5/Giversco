@@ -16,17 +16,16 @@ export default function Layout({ toggleLanguage }) {
             setIsLoading(false)
         }, 2500);
     }, [])
-    return isLoading ? (<Loading />) : (
-        (
-            <>
 
 
-                <Navbar toggleLanguage={toggleLanguage} />
+    return isLoading ? (<Loading />) : (<>
 
-                < Outlet />
+        <Navbar toggleLanguage={toggleLanguage} />
 
-                <Footer />
-            </>
-        )
-    )
+
+        <Outlet />
+
+
+        <Footer />
+    </>)
 }

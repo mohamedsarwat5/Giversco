@@ -42,10 +42,11 @@ i18n.use(initReactI18next).init({
                 },
                 logo: 'GIVERSCO',
                 footerData: {
-                    footerText1: 'Al-Hamra - Sidi Ghazi - Kafr El-Dawar Road ',
-                    footerText2: '+(20) 1226621763 <br> +(20) 1283626198 ',
-                    footerText3: 'info@giverscoo.com ',
+                    footerText1: 'Al-Hamra - Sidi Ghazi - Kafr El-Dawar Road',
+                    footerText2: '+(20) 1226621763 <br> +(20) 1283626198',
+                    footerText3: 'info@giverscoo.com',
                 },
+
                 contact: 'contact us',
                 social: 'SOCIAL',
                 link: 'LINKs',
@@ -92,13 +93,15 @@ i18n.use(initReactI18next).init({
                 logo: 'جيفرسكو',
                 footerData: {
                     footerText1: 'الحمرا - سيدي غازي - طريق كفر الدوار',
-                    footerText2: '01226621763 <br>  01283626198 ',
-                    footerText3: 'info@giverscoo.com ',
+                    footerText2: '01226621763 <br> 01283626198',
+                    footerText3: 'info@giverscoo.com',
                 },
+
                 contact: 'إتصل بنا',
                 link: 'الروابط',
                 social: 'وسائل التواصل الاجتماعي',
-                world: 'في جميع أنحاء العالم'
+                world: 'في جميع أنحاء العالم',
+
 
             },
         }
