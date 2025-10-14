@@ -48,8 +48,8 @@ i18n.use(initReactI18next).init({
                 },
                 contact: 'contact us',
                 social: 'SOCIAL',
-                link:'LINKs',
-                world:'in all world'
+                link: 'LINKs',
+                world: 'in all world'
             },
 
         },
@@ -92,12 +92,13 @@ i18n.use(initReactI18next).init({
                 logo: 'جيفرسكو',
                 footerData: {
                     footerText1: 'الحمرا - سيدي غازي - طريق كفر الدوار',
-
+                    footerText2: '01226621763 <br>  01283626198 ',
+                    footerText3: 'info@giverscoo.com ',
                 },
                 contact: 'إتصل بنا',
                 link: 'الروابط',
                 social: 'وسائل التواصل الاجتماعي',
-                world:'في جميع أنحاء العالم'
+                world: 'في جميع أنحاء العالم'
 
             },
         }

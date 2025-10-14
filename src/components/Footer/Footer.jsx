@@ -24,43 +24,48 @@ export default function Footer() {
         },
     ]
     return (
-        <div className='bg-green p grid grid-cols-2 gap-6 lg:grid-cols-4  '>
-            <div className='flex flex-col space-y-2'>
+        <div className='bg-green p flex flex-col   '>
+            {/* <div className='flex flex-col space-y-2'>
                 <h3 className='text-white lg:text-3xl text-lg'>{t('link')}</h3>
                 {Links.map((link, i) => (
                     <NavLink className={`text-white uppercase link`} to={`/${link.lable}`}>{t(`nav.${link.lable}`)}</NavLink>
                 ))}
+            </div> */}
+            <div className='flex justify-between '>
+                <div>
+                    <h3 className='text-white lg:text-3xl text-lg uppercase text-center mb-2'>{t('world')}</h3>
+                    <img className='w-40 lg:w-52 mx-auto' src={mapImg} alt="" />
+                </div>
+
+                <div>
+                    <h3 className='text-white lg:text-3xl text-lg uppercase text-center'>{t('social')}</h3>
+                    <div className='flex items-center space-x-2 text-white text-3xl mt-2 justify-center  '>
+                        <a href='https://mail.google.com/mail/?view=cm&fs=1&to=info@giverscoo.com' target='_blank'>
+                            <i className="fa-solid fa-envelope cursor-pointer link"></i>
+                        </a>
+                        <a href='https://www.facebook.com/share/1ZWjBFyJeQ/' target='_blank'>
+                            <i className="fa-brands fa-facebook-f cursor-pointer link"></i>
+                        </a>
+                        <a href='https://www.instagram.com/gfrsco_export?igsh=NzY0cWJ0Mmt0bDA=' target='_blank'>
+                            <i className="fa-brands fa-instagram cursor-pointer link "></i>
+                        </a>
+                    </div>
+
+                </div>
             </div>
+
             <div className=''>
-                <h3 className='text-white lg:text-3xl text-lg uppercase lg:text-center'>{t('contact')}</h3>
+                <h3 className='text-white lg:text-3xl text-lg uppercase  mt-3 '>{t('contact')}</h3>
                 <div className='flex flex-col space-y-1 mt-3'>
                     {footerData.map((item, i) => (
-                        <div key={i} className='flex items-center  space-x-2 text-xs text-white'>
+                        <div key={i} className='flex items-center  space-x-2 text-sm text-white'>
                             {item.icon}
                             <p className='' dangerouslySetInnerHTML={{ __html: t(`footerData.${item.text}`) }}></p>
                         </div>
                     ))}
                 </div>
             </div>
-            <div>
-                <h3 className='text-white lg:text-3xl text-lg uppercase text-center'>{t('social')}</h3>
-                <div className='flex items-center space-x-2 text-white text-3xl mt-3 justify-center  '>
-                    <a href='https://mail.google.com/mail/?view=cm&fs=1&to=info@giverscoo.com' target='_blank'>
-                        <i className="fa-solid fa-envelope cursor-pointer link"></i>
-                    </a>
-                    <a href='https://www.facebook.com/share/1ZWjBFyJeQ/' target='_blank'>
-                        <i className="fa-brands fa-facebook-f cursor-pointer link"></i>
-                    </a>
-                    <a href='https://www.instagram.com/gfrsco_export?igsh=NzY0cWJ0Mmt0bDA=' target='_blank'>
-                        <i className="fa-brands fa-instagram cursor-pointer link "></i>
-                    </a>
-                </div>
 
-            </div>
-            <div>
-                <h3 className='text-white lg:text-3xl text-lg uppercase text-center '>{t('world')}</h3>
-                <img className='w-40 lg:w-52 mx-auto' src={mapImg} alt="" />
-            </div>
         </div>
     )
 }
