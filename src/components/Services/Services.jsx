@@ -40,15 +40,19 @@ export default function Services() {
 
     return (
         <div className=' bg-beg p '>
-            <h3 className='text-3xl font-semibold capitalize text-center mb-6'>our services</h3>
+            <motion.h3
+                initial={{ opacity: 0, scale: 0 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: .5 }}
+                className='text-3xl font-semibold capitalize text-center mb-6 '>our services</motion.h3>
 
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 {servicesData.map((item, i) => (
                     <motion.div
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: .2, delay: i * .1 }}
-                        key={i} className='bg-green/15 flex  flex-col  px-4 py-6 h-[220px] text-center rounded-3xl space-y-2 shadow-sm'>
+                        key={i} className='bg-white shadow-md flex  flex-col  px-4 py-6 h-[220px] text-center rounded-3xl space-y-2 '>
                         <img src={item.icon} className='mx-auto ' alt="" />
                         <h3 className='font-semibold text-xl'>{t(`servicesData.${item.title}`)}</h3>
                         <p>{t(`servicesData.${item.text}`)}</p>

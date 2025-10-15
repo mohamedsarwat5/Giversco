@@ -65,7 +65,11 @@ i18n.use(initReactI18next).init({
                     title4: "Packaging",
                     title5: "Quality Check",
                     title6: "Global Export"
-                }
+                },
+                proudct: 'products',
+                fruit: 'fruits',
+                veg: 'vegetables',
+                all: 'all',
             },
 
         },
@@ -130,7 +134,11 @@ i18n.use(initReactI18next).init({
                     title4: "التعبئة",
                     title5: "فحص الجودة",
                     title6: "التصدير العالمي"
-                }
+                },
+                proudct: 'المنتجات',
+                fruit: 'فواكه',
+                veg: 'خضروات',
+                all: 'الكل',
 
             },
         }

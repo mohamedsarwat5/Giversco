@@ -50,7 +50,7 @@ export default function Footer() {
                 </div>
 
                 <div className='mb-5 hidden lg:block'>
-                    <h3 className='text-white lg:text-3xl text-lg uppercase  mt-3 '>{t('contact')}</h3>
+                    <h3 className='text-white lg:text-3xl text-lg uppercase   '>{t('contact')}</h3>
                     <div className='flex flex-col space-y-1 mt-3'>
                         {footerData.map((item, i) => (
                             <div key={i} className='flex items-center  space-x-2 text-sm text-white'>

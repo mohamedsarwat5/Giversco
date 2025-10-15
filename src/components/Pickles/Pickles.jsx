@@ -31,7 +31,7 @@ export default function Pickles() {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: .5, delay:i*.2 }}
-                        key={i} className=' bg-green/10 p-6 flex items-center justify-center rounded-3xl'>
+                        key={i} className=' bg-white shadow-md p-6 flex items-center justify-center rounded-3xl'>
                         <img className='w-40' src={src} alt="" />
                     </motion.div>
                 ))}
