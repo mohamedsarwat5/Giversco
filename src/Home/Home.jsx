@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { easeIn, easeInOut, motion } from 'framer-motion'
 import Services from '../components/Services/Services'
+import BgSection from '../BgSection'
 
 
 export default function Home() {
@@ -25,5 +26,6 @@ export default function Home() {
         </motion.div>
         <Banner />
         <Services />
+        <BgSection />
     </>)
 }

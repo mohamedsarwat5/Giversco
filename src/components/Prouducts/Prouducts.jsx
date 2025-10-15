@@ -51,7 +51,7 @@ export default function Prouducts() {
                 {filtered.map((item, i) => (
                     <motion.div
                         initial={{ opacity: 0, scale: 0 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
+                        animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: .5 }}
                         key={i} className='bg-white shadow-md p-3 flex items-center justify-center rounded-2xl'>
                         <img src={item.src} alt="" />

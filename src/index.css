@@ -65,6 +65,7 @@
 }
 
 
+
 .btn {
   @apply lg:w-32 w-28 py-2 border rounded-lg capitalize cursor-pointer transition-all duration-300
 }
@@ -75,6 +76,22 @@
 
 .notActiveTap {
   @apply bg-green text-white border-transparent
+}
+
+.banner-bg {
+  background: url('assets/aboutback.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  @apply lg:h-[350px] h-[520px]
+}
+
+.banner-bg div {
+  transition: all .4s ease-in-out;
+}
+
+.banner-bg div:hover {
+  background: var(--green);
 }
 
 .loading01 span {

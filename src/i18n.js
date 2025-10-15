@@ -70,6 +70,9 @@ i18n.use(initReactI18next).init({
                 fruit: 'fruits',
                 veg: 'vegetables',
                 all: 'all',
+                bgBannerText1:'GIVRESCO was founded in 2000 with a vision to provide the ever-growing Middle Eastern and ethnic markets in the United States. Over the years, GIVRESCO has expanded to export to many different European countries with the same uncompromised commitment to quality and sustainability.',
+                bgBannerText2:'GIVRESCO is strategically located between Alexandria Port to the west and the Nile Delta Valley to the east, which has been the agricultural epicenter of Egypt for millennia.',
+                about:'about us'
             },
 
         },
@@ -139,6 +142,9 @@ i18n.use(initReactI18next).init({
                 fruit: 'فواكه',
                 veg: 'خضروات',
                 all: 'الكل',
+                bgBannerText1:'تأسست جيفرسكو عام 2000 برؤية تهدف إلى تزويد الأسواق الشرق أوسطية والإثنية المتنامية في الولايات المتحدة. على مر السنين، توسعت جيفرسكو لتصدّر إلى العديد من الدول الأوروبية مع الحفاظ على نفس الالتزام الثابت بالجودة والاستدامة.',
+                bgBannerText2:'تقع جيفرسكو في موقعٍ استراتيجي بين ميناء الإسكندرية غربًا ووادي دلتا النيل شرقًا، والذي كان المركز الزراعي لمصر على مدى آلاف السنين.',
+                about:'من نحن'
 
             },
         }

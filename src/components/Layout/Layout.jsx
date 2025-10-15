@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import Navbar from '../Navbar/Navbar'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
 import Footer from '../Footer/Footer'
 import Loading from "../../Loading"
 import { AnimatePresence, easeInOut, motion } from "framer-motion"
@@ -9,6 +9,7 @@ import { useTranslation } from "react-i18next"
 export default function Layout({ toggleLanguage }) {
     const [isLoading, setIsLoading] = useState(false)
     const { i18n } = useTranslation()
+    const location = useLocation()
 
     useEffect(() => {
         setIsLoading(true)
@@ -17,6 +18,9 @@ export default function Layout({ toggleLanguage }) {
         }, 2500);
     }, [])
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [location.pathname])
 
     return isLoading ? (<Loading />) : (<>
 
