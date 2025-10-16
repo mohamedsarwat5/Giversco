@@ -6,6 +6,8 @@ import { useTranslation } from 'react-i18next'
 import { easeIn, easeInOut, motion } from 'framer-motion'
 import Services from '../components/Services/Services'
 import BgSection from '../BgSection'
+import Banner2 from '../components/Banner2/Banner2'
+import Frozen from '../components/Frozen/Frozen'
 
 
 export default function Home() {
@@ -27,5 +29,7 @@ export default function Home() {
         <Banner />
         <Services />
         <BgSection />
+        <Frozen />
+        <Banner2 />
     </>)
 }

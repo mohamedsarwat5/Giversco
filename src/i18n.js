@@ -81,7 +81,12 @@ i18n.use(initReactI18next).init({
                 AboutGIVRESCO: 'About GIVRESCO',
                 about1: 'GIVERSCO was founded in 2000 with a vision to serve the ever-growing Middle Eastern and ethnic markets in the United States. Over the years, the company has expanded its operations to export to several European countries, while maintaining an uncompromised commitment to quality, authenticity, and sustainability.',
                 about2: 'Strategically located — Egypt’s agricultural heart for millennia — GIVRESCO enjoys access to the finest produce and logistics advantages.',
-                about3:'Today, GIVRESCO continues to grow as a trusted name in the food industry, offering to partners worldwide.',
+                about3: 'Today, GIVRESCO continues to grow as a trusted name in the food industry, offering to partners worldwide.',
+                banner2text1: 'Highest quality and efficiency in our factories',
+                banner2text2: 'A special system for handling the product to obtain a safe',
+                forzen1:'Frozen Vegetables and Fruits',
+                forzen2:'GIVRESCO produces all varieties of frozen vegetables and a wide range of fruits and pickled products, sorted and swiftly frozen strictly to retain their nutrients and characteristic taste and to ensure a high quality product.',
+                productBtn:'All Products'
             },
 
         },
@@ -162,7 +167,12 @@ i18n.use(initReactI18next).init({
                 AboutGIVRESCO: 'حول جيفريسكو',
                 about1: 'تأسست جيفريسكو عام 2000 برؤية تهدف إلى خدمة الأسواق الشرق أوسطية والإثنية المتنامية في الولايات المتحدة. وعلى مر السنين، وسّعت الشركة عملياتها لتصدير منتجاتها إلى عدة دول أوروبية، مع الحفاظ على التزامها الراسخ بالجودة والأصالة والاستدامة.',
                 about2: 'بموقعها الاستراتيجي في قلب الزراعة المصرية منذ آلاف السنين، تتمتع جيفريسكو بإمكانية الوصول إلى أجود المحاصيل ومزايا لوجستية متميزة.',
-                about3:'اليوم، تواصل جيفريسكو نموها كاسم موثوق في صناعة الأغذية، مقدّمة خدماتها وشراكاتها لشركاء حول العالم.'
+                about3: 'اليوم، تواصل جيفريسكو نموها كاسم موثوق في صناعة الأغذية، مقدّمة خدماتها وشراكاتها لشركاء حول العالم.',
+                banner2text1: 'أعلى مستويات الجودة والكفاءة في مصانعنا',
+                banner2text2: 'نظام خاص للتعامل مع المنتج لضمان منتج آمن',
+                forzen1:'الخضروات والفواكه المجمدة',
+                forzen2:'تنتج جيفريسكو جميع أنواع الخضروات المجمدة ومجموعة واسعة من الفواكه والمخللات، يتم فرزها وتجميدها بسرعة وبعناية للحفاظ على قيمتها الغذائية وطعمها المميز، وضمان منتج عالي الجودة.',
+                productBtn:'جميع المنتجات'
             },
         }
     },

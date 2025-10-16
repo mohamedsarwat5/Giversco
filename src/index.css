@@ -94,6 +94,17 @@
   background: var(--green);
 }
 
+.layerr {
+  transition: all .3s ease-in-out;
+  @apply flex items-center justify-center text-white lg:text-2xl text-center text-xl p-4
+}
+
+.layerr:hover {
+  background: var(--green);
+}
+
+
+
 .loading01 span {
   animation: loading01 .8s infinite alternate;
 }
