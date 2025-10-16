@@ -25,11 +25,7 @@ export default function Layout({ toggleLanguage }) {
     return isLoading ? (<Loading />) : (<>
 
         <Navbar toggleLanguage={toggleLanguage} />
-
-
         <Outlet />
-
-
         <Footer />
     </>)
 }

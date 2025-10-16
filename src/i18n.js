@@ -46,7 +46,12 @@ i18n.use(initReactI18next).init({
                     footerText2: '+(20) 1226621763 <br> +(20) 1283626198',
                     footerText3: 'info@giverscoo.com',
                 },
-
+                contactData: {
+                    footerText1: 'Al-Hamra - Sidi Ghazi - Kafr El-Dawar Road',
+                    footerText2: '+(20) 1226621763',
+                    footerText3: '+(20) 1283626198',
+                    footerText4: 'info@giverscoo.com',
+                },
                 contact: 'contact us',
                 social: 'SOCIAL',
                 link: 'LINKs',
@@ -70,9 +75,13 @@ i18n.use(initReactI18next).init({
                 fruit: 'fruits',
                 veg: 'vegetables',
                 all: 'all',
-                bgBannerText1:'GIVRESCO was founded in 2000 with a vision to provide the ever-growing Middle Eastern and ethnic markets in the United States. Over the years, GIVRESCO has expanded to export to many different European countries with the same uncompromised commitment to quality and sustainability.',
-                bgBannerText2:'GIVRESCO is strategically located between Alexandria Port to the west and the Nile Delta Valley to the east, which has been the agricultural epicenter of Egypt for millennia.',
-                about:'about us'
+                bgBannerText1: 'GIVRESCO was founded in 2000 with a vision to provide the ever-growing Middle Eastern and ethnic markets in the United States. Over the years, GIVRESCO has expanded to export to many different European countries with the same uncompromised commitment to quality and sustainability.',
+                bgBannerText2: 'GIVRESCO is strategically located between Alexandria Port to the west and the Nile Delta Valley to the east, which has been the agricultural epicenter of Egypt for millennia.',
+                about: 'about us',
+                AboutGIVRESCO: 'About GIVRESCO',
+                about1: 'GIVERSCO was founded in 2000 with a vision to serve the ever-growing Middle Eastern and ethnic markets in the United States. Over the years, the company has expanded its operations to export to several European countries, while maintaining an uncompromised commitment to quality, authenticity, and sustainability.',
+                about2: 'Strategically located — Egypt’s agricultural heart for millennia — GIVRESCO enjoys access to the finest produce and logistics advantages.',
+                about3:'Today, GIVRESCO continues to grow as a trusted name in the food industry, offering to partners worldwide.',
             },
 
         },
@@ -118,7 +127,12 @@ i18n.use(initReactI18next).init({
                     footerText2: '01226621763 <br> 01283626198',
                     footerText3: 'info@giverscoo.com',
                 },
-
+                contactData: {
+                    footerText1: 'الحمرا - سيدي غازي - طريق كفر الدوار',
+                    footerText2: '01226621763',
+                    footerText3: '01283626198',
+                    footerText4: 'info@giverscoo.com',
+                },
                 contact: 'إتصل بنا',
                 link: 'الروابط',
                 social: 'وسائل التواصل الاجتماعي',
@@ -142,10 +156,13 @@ i18n.use(initReactI18next).init({
                 fruit: 'فواكه',
                 veg: 'خضروات',
                 all: 'الكل',
-                bgBannerText1:'تأسست جيفرسكو عام 2000 برؤية تهدف إلى تزويد الأسواق الشرق أوسطية والإثنية المتنامية في الولايات المتحدة. على مر السنين، توسعت جيفرسكو لتصدّر إلى العديد من الدول الأوروبية مع الحفاظ على نفس الالتزام الثابت بالجودة والاستدامة.',
-                bgBannerText2:'تقع جيفرسكو في موقعٍ استراتيجي بين ميناء الإسكندرية غربًا ووادي دلتا النيل شرقًا، والذي كان المركز الزراعي لمصر على مدى آلاف السنين.',
-                about:'من نحن'
-
+                bgBannerText1: 'تأسست جيفرسكو عام 2000 برؤية تهدف إلى تزويد الأسواق الشرق أوسطية والإثنية المتنامية في الولايات المتحدة. على مر السنين، توسعت جيفرسكو لتصدّر إلى العديد من الدول الأوروبية مع الحفاظ على نفس الالتزام الثابت بالجودة والاستدامة.',
+                bgBannerText2: 'تقع جيفرسكو في موقعٍ استراتيجي بين ميناء الإسكندرية غربًا ووادي دلتا النيل شرقًا، والذي كان المركز الزراعي لمصر على مدى آلاف السنين.',
+                about: 'من نحن',
+                AboutGIVRESCO: 'حول جيفريسكو',
+                about1: 'تأسست جيفريسكو عام 2000 برؤية تهدف إلى خدمة الأسواق الشرق أوسطية والإثنية المتنامية في الولايات المتحدة. وعلى مر السنين، وسّعت الشركة عملياتها لتصدير منتجاتها إلى عدة دول أوروبية، مع الحفاظ على التزامها الراسخ بالجودة والأصالة والاستدامة.',
+                about2: 'بموقعها الاستراتيجي في قلب الزراعة المصرية منذ آلاف السنين، تتمتع جيفريسكو بإمكانية الوصول إلى أجود المحاصيل ومزايا لوجستية متميزة.',
+                about3:'اليوم، تواصل جيفريسكو نموها كاسم موثوق في صناعة الأغذية، مقدّمة خدماتها وشراكاتها لشركاء حول العالم.'
             },
         }
     },
