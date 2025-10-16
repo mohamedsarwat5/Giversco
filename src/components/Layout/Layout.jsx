@@ -5,6 +5,7 @@ import Footer from '../Footer/Footer'
 import Loading from "../../Loading"
 import { AnimatePresence, easeInOut, motion } from "framer-motion"
 import { useTranslation } from "react-i18next"
+import Whatsapp from "../Whatsapp"
 
 export default function Layout({ toggleLanguage }) {
     const [isLoading, setIsLoading] = useState(false)
@@ -26,6 +27,7 @@ export default function Layout({ toggleLanguage }) {
 
         <Navbar toggleLanguage={toggleLanguage} />
         <Outlet />
+        <Whatsapp />
         <Footer />
     </>)
 }
