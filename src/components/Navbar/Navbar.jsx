@@ -36,8 +36,9 @@ export default function Navbar({ toggleLanguage }) {
                     ))}
                 </ul>
                 <div className='flex items-center space-x-2 text-[19px]'>
-                    <button onClick={toggleLanguage} className=' text-white cursor-pointer font-semibold link '><i className="fa-solid fa-earth-americas block"></i>  </button>
-
+                    <button onClick={toggleLanguage} className=' text-white cursor-pointer font-semibold link space-x-1 flex items-center'>
+                        <span className='text-base font-light'>{i18n.language === 'ar' ? 'English' : 'العربية '}</span>
+                        <i className="fa-solid fa-earth-americas block"></i>  </button>
                     <button className='lg:hidden cursor-pointer' onClick={() => setOpen(prev => !prev)}><i className={`fa-bars  fa-solid text-white link   `}></i></button>
                 </div>
             </nav>
